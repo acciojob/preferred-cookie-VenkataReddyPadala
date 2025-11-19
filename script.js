@@ -19,6 +19,5 @@ if (cookies) {
   }
   document.documentElement.style.setProperty("--fontsize", `${val[0]}px`);
   document.documentElement.style.setProperty("--fontcolor", `${val[1]}`);
-  fontEle.value = val[0];
-  colorEle.value = val[1];
+  
 }
