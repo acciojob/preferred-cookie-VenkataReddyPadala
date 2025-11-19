@@ -8,7 +8,7 @@ form.addEventListener("submit", () => {
 });
 
 const cookies = document.cookie.split("; ");
-cookies.shift();
+
 
 console.log(cookies);
 if (cookies) {
